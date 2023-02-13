@@ -8,6 +8,10 @@ Date: 02/08/2023
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Wild Rescues: Contact</title>
 </head>
@@ -16,8 +20,13 @@ Date: 02/08/2023
 The header element structurally defines the header area of a webpage. The header content is static.
 -->
 <header> 
-  <img src="images/baby-hawk.jpg" alt="rescued baby hawk">
-</header>
+  <div class="tab-desk">
+<img src="images/baby-hawk.jpg" alt="rescued baby hawk">
+  </div>
+  <div class="mobile">
+    <h1>&#128062; Wild Rescues</h1> <h3>Rescue. Rehabilitate. Release.</h3>
+  </div>
+  </header>
 <!--  
 The nav element structurally defines the navigation area of a webpage. The nav content is static.
 -->
@@ -36,7 +45,7 @@ The nav element structurally defines the navigation area of a webpage. The nav c
 <main>
   <div id="contact">
     <h2>You can reach us at:</h2>
-    <p>Office: (814) 555-8989</p>
+    <p class="tel-link round"><a href="tel+18145558989">(814) 555-8989</a></p>
     <p><a class="link" href="mailto:contact@wildrescues.net">email: contact@wildrescues.net</a></p>
     <p><a class="link" href="https://goo.gl/maps/BTJzjc2tALd4RDWA8" target="_blank">Address: 8989 Rescue Drive, Ocala, FL 34471</a></p>
   </div>
