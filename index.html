@@ -16,6 +16,20 @@ Date: 01/23/2023
   <title>Wild Rescues: Home</title>
 </head>
 <body>
+  <!-- Mobile Nav -->
+<nav class="mobile-nav">
+    <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="partnership.html">Partnership</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+        <a class="nav-icon" onclick="menu()">
+            <div id="icon">&#9776;</div>
+        </a>
+</nav>
 <!--  
 The header element structurally defines the header area of a webpage. The header content is static.
 -->
@@ -30,7 +44,7 @@ The header element structurally defines the header area of a webpage. The header
 <!--  
 The nav element structurally defines the navigation area of a webpage. The nav content is static.
 -->
-<nav>
+<nav class="tab-desk">
   <ul>
     <li><a href="index.html">Home</a> </li>
     <li><a href="about.html">About Us</a> </li> 
@@ -62,6 +76,7 @@ The nav element structurally defines the navigation area of a webpage. The nav c
   <p>&copy; Copyright 2021. All Rights Reserved.</p>
 <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p> 
 </footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
 
