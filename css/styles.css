@@ -21,6 +21,23 @@ img {
     display: block;
 }
 
+/* Style rules for skip navigation link */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+ 
+.skip:focus {
+    color: #fff;
+    background-color: #2a1f14;
+    text-decoration: none;
+    padding: 0.5%;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
 /* Style rules for mobile viewport */
 
 /* Style rule show mobile class and hide tab-desk class */
@@ -231,6 +248,11 @@ footer a {
     text-decoration: none;
 }
 
+.social {
+  display: inline-block;
+  padding: 4%;
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
  
@@ -268,6 +290,10 @@ footer a {
       grid-column: 1 / span 2;
     }
   
+  .social {
+  display: inline-block;
+  padding: 4%;
+}
   /*Tablet Viewport: Style rule for form element */
   form {
     width: 70%;
@@ -276,6 +302,19 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   }
+
+/* Tablet Viewport: Style rules for footer area */
+footer{
+  overflow: auto;
+}
+.copyright{
+  float: left;
+  width: 65%;
+}
+.social{
+  float: right;
+  width: 25%;
+}
 
 #submit {
   margin-top: 0;
