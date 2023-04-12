@@ -16,6 +16,8 @@ Date: 04/06/2023
   <title>Wild Rescues: Template</title>
 </head>
 <body>
+  <!-- Skip to Content Link -->  
+<a class="skip" href="#content">Skip to Content</a>
 <!-- Mobile Nav -->
 <nav class="mobile-nav">
     <div id="nav-links">
@@ -56,15 +58,21 @@ The nav element structurally defines the navigation area of a webpage. The nav c
 </nav>
 
 <!-- Use the main area to add the main content to the webpage -->
-<main>
+<main id="content">
   <div>
   </div>
 </main>
 <!--  The footer element structurally defines the bottom, or footer area, of a webpage. The footer content is static.
 -->
 <footer>
-  <p>&copy; Copyright 2021. All Rights Reserved.</p>
-<p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p> 
+  <div class="copyright">
+    <p>&copy; Copyright 2021. All Rights Reserved.</p>
+    <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p> 
+  </div>
+  <div class="social">
+    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+    <a href="https://www.twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+  </div>
 </footer>
 <script src="scripts/script.js"></script>
 </body>
